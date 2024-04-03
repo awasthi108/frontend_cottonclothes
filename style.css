@@ -121,7 +121,7 @@ img {
 }
 #rotate {
   position: relative;
-  left: -28%;
+  left: -7vw;
   bottom: 53%;
   rotate: -90deg;
   width: fit-content;
