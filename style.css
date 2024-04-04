@@ -12,47 +12,47 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  gap: 1.5vw;
+  gap: 1.5vmax;
 
-  padding-left: 10vw;
+  padding-left: 10vmax;
 
-  padding-top: 7vw;
+  padding-top: 7vmax;
 }
 #left {
   height: 100%;
   width: 45%;
-  padding-bottom: 3vw;
+  padding-bottom: 3vmax;
 }
 
 #left h1 {
-  font-size: 7vw;
-  letter-spacing: 0.4vw;
+  font-size: 7vmax;
+  letter-spacing: 0.4vmax;
   font-weight: 600;
-  line-height: 6vw;
+  line-height: 6vmax;
 }
 #left-cor {
   margin-top: 30%;
   border: 1px solid black;
   width: max-content;
-  padding: 0.6vw 1vw;
-  border-radius: 3vw;
+  padding: 0.6vmax 1vmax;
+  border-radius: 3vmax;
   display: flex;
   justify-content: center;
 }
 #color1 {
   background-color: rgb(152, 152, 187);
-  height: 0.6vw;
-  width: 0.6vw;
+  height: 0.6vmax;
+  width: 0.6vmax;
   border-radius: 50%;
-  margin-left: 0.3vw;
+  margin-left: 0.3vmax;
   margin-top: 6%;
 }
 #color2 {
   background-color: rgb(83, 211, 166);
-  height: 0.6vw;
-  width: 0.6vw;
+  height: 0.6vmax;
+  width: 0.6vmax;
   border-radius: 50%;
-  margin-left: 0.3vw;
+  margin-left: 0.3vmax;
   margin-top: 6%;
 }
 
@@ -64,32 +64,32 @@ body {
 
 #bottom-left h2 {
   font-weight: 1000;
-  padding-bottom: 1.2vw;
+  padding-bottom: 1.2vmax;
   font-family: cursive;
 }
 #bottom-left p {
-  font-size: 1vw;
+  font-size: 1vmax;
   width: 80%;
   color: #444;
   font-weight: 550;
-  line-height: 1vw;
-  letter-spacing: 0.1vw;
+  line-height: 1vmax;
+  letter-spacing: 0.1vmax;
 }
 #right {
   height: 100%;
   width: 35%;
 
-  padding-bottom: 1.2vw;
+  padding-bottom: 1.2vmax;
 }
 #right-top {
   display: flex;
   justify-content: space-between;
-  padding: 0vw 0.4vw;
+  padding: 0vmax 0.4vmax;
 }
 #right-top h4 {
-  font-size: 1vw;
+  font-size: 1vmax;
   font-weight: 400;
-  padding-bottom: 0.4vw;
+  padding-bottom: 0.4vmax;
 }
 #right-top h5 i {
   color: goldenrod;
@@ -103,8 +103,8 @@ img {
 
 #blackbox {
   position: relative;
-  height: 7vw;
-  width: 7vw;
+  height: 7vmax;
+  width: 7vmax;
   background-color: rgb(12, 12, 12);
   border-radius: 50%;
   color: white;
@@ -115,13 +115,13 @@ img {
   justify-content: center;
 }
 #blackbox h5 {
-  font-size: 1.1vw;
+  font-size: 1.1vmax;
   font-weight: 600;
   text-transform: lowercase;
 }
 #rotate {
   position: relative;
-  left: -7vw;
+  left: -7vmax;
   bottom: 53%;
   rotate: -90deg;
   width: fit-content;
